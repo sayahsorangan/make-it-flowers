@@ -3,15 +3,15 @@ import { Welcome } from '../welcome/welcome';
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: 'Blooming Dreams - Discover the Beauty of Flowers' },
+        { title: 'Make it Flowers - Temukan Keindahan Bunga' },
         {
             name: 'description',
             content:
-                'Explore the wonderful world of flowers with our beautiful gallery. Learn about different flower types, their meanings, and the joy they bring to our lives.',
+                'Jelajahi dunia bunga yang menakjubkan dengan galeri indah kami. Pelajari tentang berbagai jenis bunga, maknanya, dan kebahagiaan yang mereka bawa dalam hidup kita.',
         },
         {
             name: 'keywords',
-            content: 'flowers, flower gallery, flower meanings, nature, botanical, roses, tulips, daisies, sunflowers',
+            content: 'bunga, galeri bunga, makna bunga, alam, botani, mawar, tulip, daisy, bunga matahari',
         },
     ];
 }

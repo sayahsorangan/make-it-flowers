@@ -6,62 +6,62 @@ export function Welcome() {
     const flowers = [
         {
             id: 1,
-            name: 'Pink Rose',
+            name: 'Mawar Pink',
             image: '🌹',
             category: 'roses',
-            description: 'Beautiful pink roses symbolizing love and gratitude',
-            meaning: 'Appreciation and admiration',
+            description: 'Mawar pink yang indah melambangkan cinta dan rasa syukur',
+            meaning: 'Penghargaan dan kekaguman',
         },
         {
             id: 2,
-            name: 'Cherry Blossom',
+            name: 'Bunga Sakura',
             image: '🌸',
             category: 'seasonal',
-            description: 'Delicate cherry blossoms representing the beauty of life',
-            meaning: 'Renewal and the fleeting nature of life',
+            description: 'Bunga sakura yang lembut mewakili keindahan hidup',
+            meaning: 'Pembaharuan dan sifat sementara kehidupan',
         },
         {
             id: 3,
             name: 'Tulip',
             image: '🌷',
             category: 'tulips',
-            description: 'Colorful tulips that herald the arrival of spring',
-            meaning: 'Perfect love and elegance',
+            description: 'Tulip berwarna-warni yang menandakan kedatangan musim semi',
+            meaning: 'Cinta yang sempurna dan keelegan',
         },
         {
             id: 4,
             name: 'Hibiscus',
             image: '🌺',
             category: 'tropical',
-            description: 'Exotic hibiscus flowers from tropical paradises',
-            meaning: 'Delicate beauty and femininity',
+            description: 'Bunga hibiscus eksotis dari surga tropis',
+            meaning: 'Keindahan halus dan feminitas',
         },
         {
             id: 5,
-            name: 'Sunflower',
+            name: 'Bunga Matahari',
             image: '🌻',
             category: 'sunflowers',
-            description: 'Bright sunflowers that always face the sun',
-            meaning: 'Loyalty, adoration, and positivity',
+            description: 'Bunga matahari cerah yang selalu menghadap matahari',
+            meaning: 'Kesetiaan, pemujaan, dan positivitas',
         },
         {
             id: 6,
             name: 'Daisy',
             image: '🌼',
             category: 'daisies',
-            description: 'Pure white daisies representing innocence',
-            meaning: 'New beginnings and purity',
+            description: 'Daisy putih murni yang mewakili kepolosan',
+            meaning: 'Awal yang baru dan kemurnian',
         },
     ];
 
     const categories = [
-        { id: 'all', name: 'All Flowers' },
-        { id: 'roses', name: 'Roses' },
-        { id: 'tulips', name: 'Tulips' },
-        { id: 'seasonal', name: 'Seasonal' },
-        { id: 'tropical', name: 'Tropical' },
-        { id: 'sunflowers', name: 'Sunflowers' },
-        { id: 'daisies', name: 'Daisies' },
+        { id: 'all', name: 'Semua Bunga' },
+        { id: 'roses', name: 'Mawar' },
+        { id: 'tulips', name: 'Tulip' },
+        { id: 'seasonal', name: 'Musiman' },
+        { id: 'tropical', name: 'Tropis' },
+        { id: 'sunflowers', name: 'Bunga Matahari' },
+        { id: 'daisies', name: 'Daisy' },
     ];
 
     const filteredFlowers =
@@ -75,36 +75,36 @@ export function Welcome() {
                     <div className='flex justify-between items-center py-6'>
                         <div className='flex items-center space-x-3'>
                             <span className='text-4xl'>🌸</span>
-                            <h1 className='text-3xl font-bold text-white'>Blooming Dreams</h1>
+                            <h1 className='text-3xl font-bold text-white'>Make it Flowers</h1>
                         </div>
                         <nav className='hidden md:flex space-x-8'>
                             <a
                                 href='#'
                                 className='text-white hover:text-pink-100 transition-colors font-medium'
                             >
-                                Home
+                                Beranda
                             </a>
                             <a
                                 href='#gallery'
                                 className='text-white hover:text-pink-100 transition-colors font-medium'
                             >
-                                Gallery
+                                Galeri
                             </a>
                             <a
                                 href='#about'
                                 className='text-white hover:text-pink-100 transition-colors font-medium'
                             >
-                                About
+                                Tentang
                             </a>
                             <a
                                 href='#contact'
                                 className='text-white hover:text-pink-100 transition-colors font-medium'
                             >
-                                Contact
+                                Kontak
                             </a>
                         </nav>
                         <div className='hidden md:flex items-center space-x-3'>
-                            <span className='text-white text-sm'>🌸 Discover Nature's Beauty</span>
+                            <span className='text-white text-sm'>🌸 Temukan Keindahan Alam</span>
                         </div>
                     </div>
                 </div>
@@ -116,15 +116,14 @@ export function Welcome() {
                     <div className='mb-8'>
                         <span className='text-6xl mb-4 block'>🌺</span>
                         <h2 className='text-5xl md:text-6xl font-bold text-pink-800 mb-6'>
-                            Discover the Beauty <br />
-                            <span className='text-pink-600'>of Nature's Flowers</span>
+                            Temukan Keindahan <br />
+                            <span className='text-pink-600'>Bunga-bunga Alam</span>
                         </h2>
                         <p className='text-xl text-pink-700 mb-8 max-w-2xl mx-auto'>
-                            Explore our beautiful collection of flowers and learn about their meanings, origins, and the
-                            joy they bring to our lives.
+                            Jelajahi koleksi bunga-bunga indah kami dan pelajari tentang makna, asal-usul, dan kebahagiaan yang mereka bawa dalam hidup kita.
                         </p>
                         <button className='bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-pink-600 hover:to-rose-600 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1'>
-                            Explore Gallery 🌸
+                            Jelajahi Galeri 🌸
                         </button>
                     </div>
                 </div>
@@ -136,7 +135,7 @@ export function Welcome() {
                 className='py-12 px-4'
             >
                 <div className='max-w-7xl mx-auto'>
-                    <h3 className='text-3xl font-bold text-pink-800 text-center mb-8'>Flower Gallery</h3>
+                    <h3 className='text-3xl font-bold text-pink-800 text-center mb-8'>Galeri Bunga</h3>
                     <div className='flex flex-wrap justify-center gap-4 mb-12'>
                         {categories.map((category) => (
                             <button
@@ -172,7 +171,7 @@ export function Welcome() {
                                     <p className='text-pink-600 mb-3'>{flower.description}</p>
                                     <div className='bg-pink-50 p-3 rounded-lg'>
                                         <p className='text-sm text-pink-700'>
-                                            <span className='font-semibold'>Meaning:</span> {flower.meaning}
+                                            <span className='font-semibold'>Makna:</span> {flower.meaning}
                                         </p>
                                     </div>
                                 </div>
@@ -188,28 +187,27 @@ export function Welcome() {
                 className='py-20 bg-gradient-to-r from-pink-200 via-rose-200 to-pink-300'
             >
                 <div className='max-w-7xl mx-auto px-4'>
-                    <h3 className='text-4xl font-bold text-pink-800 text-center mb-12'>About Flowers</h3>
+                    <h3 className='text-4xl font-bold text-pink-800 text-center mb-12'>Tentang Bunga</h3>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                         <div className='text-center bg-white p-8 rounded-2xl shadow-lg'>
                             <span className='text-5xl mb-4 block'>🌱</span>
-                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Nature's Art</h4>
+                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Seni Alam</h4>
                             <p className='text-pink-600'>
-                                Flowers are nature's masterpieces, each one unique and beautiful in its own way
+                                Bunga adalah karya agung alam, masing-masing unik dan indah dengan caranya sendiri
                             </p>
                         </div>
                         <div className='text-center bg-white p-8 rounded-2xl shadow-lg'>
                             <span className='text-5xl mb-4 block'>💝</span>
-                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Meaningful Symbols</h4>
+                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Simbol Bermakna</h4>
                             <p className='text-pink-600'>
-                                Every flower carries deep meaning and has been used to express emotions throughout
-                                history
+                                Setiap bunga memiliki makna mendalam dan telah digunakan untuk mengekspresikan emosi sepanjang sejarah
                             </p>
                         </div>
                         <div className='text-center bg-white p-8 rounded-2xl shadow-lg'>
                             <span className='text-5xl mb-4 block'>🌍</span>
-                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Global Beauty</h4>
+                            <h4 className='text-xl font-bold text-pink-800 mb-4'>Keindahan Global</h4>
                             <p className='text-pink-600'>
-                                From tropical paradises to temperate gardens, flowers bloom across every continent
+                                Dari surga tropis hingga taman beriklim sedang, bunga mekar di setiap benua
                             </p>
                         </div>
                     </div>
@@ -220,18 +218,18 @@ export function Welcome() {
             <section className='py-16 bg-gradient-to-r from-pink-500 to-rose-500'>
                 <div className='max-w-4xl mx-auto text-center px-4'>
                     <span className='text-5xl mb-6 block'>💌</span>
-                    <h3 className='text-3xl font-bold text-white mb-4'>Stay Connected with Nature</h3>
+                    <h3 className='text-3xl font-bold text-white mb-4'>Tetap Terhubung dengan Alam</h3>
                     <p className='text-pink-100 mb-8 text-lg'>
-                        Subscribe to get flower facts, seasonal blooms, and nature photography
+                        Berlangganan untuk mendapatkan fakta bunga, mekar musiman, dan fotografi alam
                     </p>
                     <div className='flex flex-col sm:flex-row max-w-md mx-auto gap-4'>
                         <input
                             type='email'
-                            placeholder='Enter your email'
+                            placeholder='Masukkan email Anda'
                             className='flex-1 px-4 py-3 rounded-full border-none outline-none text-pink-800'
                         />
                         <button className='bg-white text-pink-500 px-6 py-3 rounded-full font-semibold hover:bg-pink-50 transition-colors'>
-                            Subscribe
+                            Berlangganan
                         </button>
                     </div>
                 </div>
@@ -247,21 +245,21 @@ export function Welcome() {
                         <div>
                             <div className='flex items-center space-x-2 mb-4'>
                                 <span className='text-2xl'>🌸</span>
-                                <h4 className='text-xl font-bold'>Blooming Dreams</h4>
+                                <h4 className='text-xl font-bold'>Make it Flowers</h4>
                             </div>
                             <p className='text-pink-200'>
-                                Celebrating the beauty and wonder of flowers from around the world.
+                                Merayakan keindahan dan keajaiban bunga dari seluruh dunia.
                             </p>
                         </div>
                         <div>
-                            <h5 className='font-semibold mb-4'>Explore</h5>
+                            <h5 className='font-semibold mb-4'>Jelajahi</h5>
                             <ul className='space-y-2'>
                                 <li>
                                     <a
                                         href='#'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Home
+                                        Beranda
                                     </a>
                                 </li>
                                 <li>
@@ -269,7 +267,7 @@ export function Welcome() {
                                         href='#gallery'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Gallery
+                                        Galeri
                                     </a>
                                 </li>
                                 <li>
@@ -277,7 +275,7 @@ export function Welcome() {
                                         href='#about'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        About
+                                        Tentang
                                     </a>
                                 </li>
                                 <li>
@@ -285,20 +283,20 @@ export function Welcome() {
                                         href='#contact'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Contact
+                                        Kontak
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h5 className='font-semibold mb-4'>Flower Types</h5>
+                            <h5 className='font-semibold mb-4'>Jenis Bunga</h5>
                             <ul className='space-y-2'>
                                 <li>
                                     <a
                                         href='#'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Roses
+                                        Mawar
                                     </a>
                                 </li>
                                 <li>
@@ -306,7 +304,7 @@ export function Welcome() {
                                         href='#'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Tulips
+                                        Tulip
                                     </a>
                                 </li>
                                 <li>
@@ -314,7 +312,7 @@ export function Welcome() {
                                         href='#'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Seasonal Blooms
+                                        Bunga Musiman
                                     </a>
                                 </li>
                                 <li>
@@ -322,23 +320,23 @@ export function Welcome() {
                                         href='#'
                                         className='text-pink-200 hover:text-white transition-colors'
                                     >
-                                        Tropical Flowers
+                                        Bunga Tropis
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h5 className='font-semibold mb-4'>Connect</h5>
+                            <h5 className='font-semibold mb-4'>Hubungi</h5>
                             <ul className='space-y-2 text-pink-200'>
-                                <li>🌐 www.bloomingdreams.com</li>
-                                <li>📧 hello@bloomingdreams.com</li>
-                                <li>📱 Follow us on social media</li>
+                                <li>🌐 www.makeitflowers.com</li>
+                                <li>📧 hello@makeitflowers.com</li>
+                                <li>📱 Ikuti kami di media sosial</li>
                             </ul>
                         </div>
                     </div>
                     <div className='border-t border-pink-800 mt-8 pt-8 text-center'>
                         <p className='text-pink-200'>
-                            &copy; 2025 Blooming Dreams. All rights reserved. Made with 💖 for flower lovers
+                            &copy; 2025 Make it Flowers. Semua hak dilindungi. Dibuat dengan 💖 untuk pecinta bunga
                         </p>
                     </div>
                 </div>
